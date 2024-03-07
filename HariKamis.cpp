@@ -45,3 +45,12 @@ void bubbleSortArray() {                    // Procedure untuk mengurutkan array
                 a[j + 1] = temp;            // Assign nilai temp ke a[j+1]
             }
         }
+    }
+}
+int main() {
+    input();            // Memanggil read()
+    bubbleSortArray();  // Memanggil bubbleSortArray()
+    display();          // Memanggil display()
+    return 0;
+}
+     
